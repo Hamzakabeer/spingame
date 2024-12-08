@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f3f4f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.game-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.spinner-container {
+  text-align: center;
+}
+
+.spinner {
+  position: relative;
+  margin: 20px auto;
+  width: 200px;
+  height: 200px;
+  border: 10px solid #00aaff;
+  border-radius: 50%;
+  border-top-color: #ff6347;
+}
+
+.spinner .arrow {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid #333;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background: #00aaff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0077cc;
+}
+
+.result-container {
+  text-align: center;
+  width: 300px;
+}
+
+.result-container h2 {
+  font-size: 24px;
+  color: #0077cc;
+}
+
+.hidden {
+  display: none;
+}
+
+#prizeImage {
+  margin-top: 20px;
+  max-width: 200px;
+  max-height: 200px;
+}
