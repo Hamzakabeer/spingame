@@ -5,9 +5,9 @@ const prizeImage = document.getElementById("prizeImage");
 
 // Fixed names
 const names = [
+  "Ghous Ahmed",
   "Muhammad Hamza Kabeer",
   "Ali",
-  "Ghous Ahmed",
   "Rayan",
   "Shayan",
   "Danish",
